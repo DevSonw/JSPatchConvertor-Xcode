@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6E312231C508700007DF2B1 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E312221C508700007DF2B1 /* AppKit.framework */; };
+		C6E312251C508700007DF2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E312241C508700007DF2B1 /* Foundation.framework */; };
+		C6E312291C508700007DF2B1 /* JSConvertor.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = C6E312281C508700007DF2B1 /* JSConvertor.xcscheme */; };
+		C6E3122C1C508700007DF2B1 /* JSConvertor.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E3122B1C508700007DF2B1 /* JSConvertor.m */; };
+		C6E3122F1C508700007DF2B1 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E3122E1C508700007DF2B1 /* NSObject_Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C6E3121F1C508700007DF2B1 /* JSConvertor.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSConvertor.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E312221C508700007DF2B1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		C6E312241C508700007DF2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		C6E312281C508700007DF2B1 /* JSConvertor.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = JSConvertor.xcscheme; path = JSConvertor.xcodeproj/xcshareddata/xcschemes/JSConvertor.xcscheme; sourceTree = SOURCE_ROOT; };
+		C6E3122A1C508700007DF2B1 /* JSConvertor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSConvertor.h; sourceTree = "<group>"; };
+		C6E3122B1C508700007DF2B1 /* JSConvertor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSConvertor.m; sourceTree = "<group>"; };
+		C6E3122D1C508700007DF2B1 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		C6E3122E1C508700007DF2B1 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		C6E312301C508700007DF2B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6E3121D1C508700007DF2B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6E312231C508700007DF2B1 /* AppKit.framework in Frameworks */,
+				C6E312251C508700007DF2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6E312161C508700007DF2B1 = {
+			isa = PBXGroup;
+			children = (
+				C6E312261C508700007DF2B1 /* JSConvertor */,
+				C6E312211C508700007DF2B1 /* Frameworks */,
+				C6E312201C508700007DF2B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6E312201C508700007DF2B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6E3121F1C508700007DF2B1 /* JSConvertor.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6E312211C508700007DF2B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6E312221C508700007DF2B1 /* AppKit.framework */,
+				C6E312241C508700007DF2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6E312261C508700007DF2B1 /* JSConvertor */ = {
+			isa = PBXGroup;
+			children = (
+				C6E3122A1C508700007DF2B1 /* JSConvertor.h */,
+				C6E3122B1C508700007DF2B1 /* JSConvertor.m */,
+				C6E3122D1C508700007DF2B1 /* NSObject_Extension.h */,
+				C6E3122E1C508700007DF2B1 /* NSObject_Extension.m */,
+				C6E312301C508700007DF2B1 /* Info.plist */,
+				C6E312271C508700007DF2B1 /* Supporting Files */,
+			);
+			path = JSConvertor;
+			sourceTree = "<group>";
+		};
+		C6E312271C508700007DF2B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6E312281C508700007DF2B1 /* JSConvertor.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6E3121E1C508700007DF2B1 /* JSConvertor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6E312331C508700007DF2B1 /* Build configuration list for PBXNativeTarget "JSConvertor" */;
+			buildPhases = (
+				C6E3121B1C508700007DF2B1 /* Sources */,
+				C6E3121C1C508700007DF2B1 /* Resources */,
+				C6E3121D1C508700007DF2B1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSConvertor;
+			productName = JSConvertor;
+			productReference = C6E3121F1C508700007DF2B1 /* JSConvertor.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6E312171C508700007DF2B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = com.Rainbow.colors;
+				TargetAttributes = {
+					C6E3121E1C508700007DF2B1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = C6E3121A1C508700007DF2B1 /* Build configuration list for PBXProject "JSConvertor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C6E312161C508700007DF2B1;
+			productRefGroup = C6E312201C508700007DF2B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6E3121E1C508700007DF2B1 /* JSConvertor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6E3121C1C508700007DF2B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6E312291C508700007DF2B1 /* JSConvertor.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6E3121B1C508700007DF2B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6E3122C1C508700007DF2B1 /* JSConvertor.m in Sources */,
+				C6E3122F1C508700007DF2B1 /* NSObject_Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C6E312311C508700007DF2B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		C6E312321C508700007DF2B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		C6E312341C508700007DF2B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = JSConvertor/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainbow.JSConvertor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		C6E312351C508700007DF2B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = JSConvertor/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rainbow.JSConvertor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6E3121A1C508700007DF2B1 /* Build configuration list for PBXProject "JSConvertor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6E312311C508700007DF2B1 /* Debug */,
+				C6E312321C508700007DF2B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6E312331C508700007DF2B1 /* Build configuration list for PBXNativeTarget "JSConvertor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6E312341C508700007DF2B1 /* Debug */,
+				C6E312351C508700007DF2B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6E312171C508700007DF2B1 /* Project object */;
+}
